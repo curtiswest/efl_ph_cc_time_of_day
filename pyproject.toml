@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "efl_ph_cc_time_of_day"}]
 
 [tool.poetry.dependencies]
-python = "3.8.9"
+python = "3.9.16"
 streamlit = {version="1.20.0", python = ">=3.8.9,<3.9.7 || >3.9.7,<4.0.0"}
 pandas = "*"
 plotly = "*"
