@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "efl-ph-cc-time-of-day"
+version = "0.1.0"
+description = ""
+authors = ["Curtis West <curtis@curtiswest.net>"]
+readme = "README.md"
+packages = [{include = "efl_ph_cc_time_of_day"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
